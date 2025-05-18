@@ -1,0 +1,75 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+.env/
+.venv/
+venv/
+ENV/
+env.bak/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Python egg metadata
+*.egg-info/
+*.egg
+
+# Distribution / packaging
+dist/
+build/
+*.tar.gz
+*.whl
+
+# dbt artifacts
+dbt_modules/
+target/
+dbt_packages/
+
+# Local env and credentials
+*.env
+.env.*
+secrets/
+credentials.json
+keyfile.json
+*.key
+*.pem
+
+# Airflow files
+airflow.db
+logs/
+__pycache__/
+*.log
+
+# VS Code / PyCharm / other IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# macOS
+.DS_Store
+
+# Output or data files
+*.csv
+*.parquet
+*.avro
+*.orc
+*.json
+*.gz
+
+# Google Cloud related
+*.bq
+*.gcloudignore
+.gcloud/
+.gcs/
+
+# GCP credentials
+*.json
+*key*.json
+service-account-key.json
